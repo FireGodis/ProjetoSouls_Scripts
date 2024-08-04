@@ -70,7 +70,7 @@ public class player_movement : MonoBehaviour
         */
 
          // float moveX = horizontal != 0 ? horizontal : PS4_horizontal;
-         // float moveZ = vertical != 0 ? vertical : PS4_vertical;
+          float moveZ = vertical != 0 ? vertical : PS4_vertical;
 
          var movimento = controleplayer.player.move.ReadValue<Vector2>();
 
